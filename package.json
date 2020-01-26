@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-config-jzeg",
+  "version": "0.0.1",
+  "description": "样式表规则",
+  "main": "css/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangchenglin/stylelint-config-jzeg.git"
+  },
+  "keywords": [
+    "stylelint-config",
+    "jzeg"
+  ],
+  "author": "zhangchenglin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangchenglin/stylelint-config-jzeg/issues"
+  },
+  "homepage": "https://github.com/zhangchenglin/stylelint-config-jzeg#readme",
+  "dependencies": {
+    "stylelint-config-recommended-scss": "^4.1.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "stylelint": "^13.0.0"
+  }
+}
