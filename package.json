@@ -4,7 +4,9 @@
   "description": "样式表规则",
   "main": "css/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "on_first_use": "npm run install_nrm_use_taobao && npm run install_ncu",
+    "install_nrm_use_taobao": "npm i -g nrm --registry=https://registry.npm.taobao.org && nrm use taobao && nrm ls",
+    "install_ncu": "npm i -g npm-check-updates"
   },
   "repository": {
     "type": "git",
@@ -14,12 +16,19 @@
     "stylelint-config",
     "jzeg"
   ],
-  "author": "zhangchenglin",
+  "author": {
+    "name": "张成林",
+    "email": "469946668@qq.com",
+    "url": "https://zhangchenglin.github.io"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zhangchenglin/stylelint-config-jzeg/issues"
   },
   "homepage": "https://github.com/zhangchenglin/stylelint-config-jzeg#readme",
+  "engines": {
+    "node": "^10.18.0 || ^12.14.0 || ^13.4.0"
+  },
   "dependencies": {
     "stylelint-config-recommended-scss": "^4.1.0",
     "stylelint-config-standard": "^19.0.0",
@@ -29,5 +38,9 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "stylelint": "^13.0.0"
-  }
+  },
+  "files": [
+    "css/*.js",
+    "scss/*.js"
+  ]
 }
